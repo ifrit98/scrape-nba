@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Grab dependencies
+pip install ipython bs4 --user
+
+# Open platform-agnostic terminal to run scrape file
+x-terminal-emulator -e ipython -i ~/git/hoopR/scrape.py
